@@ -26,6 +26,6 @@ public class Array {
         mataKuliah[4] = "Organisasi Komputer";
         System.out.println(mataKuliah[2]);
         System.out.println(mataKuliah[1]);
-        System.out.println(mataKuliah[5]);
+        System.out.println(mataKuliah[5]); // null karena array index ke 5 tidak ada atau belum di set
     }
 }
