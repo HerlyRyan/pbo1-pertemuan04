@@ -9,26 +9,19 @@ package pertemuan04.loopingarray;
  *
  * @author asus
  */
-public class Pertemuan04LoopingArray {
-
-    /**
-     * @param args the command line arguments
-     */
+public class LoopingDoWhile {
     public static void main(String[] args) {
-        // Menggunakan While
         int isiGelas = 0;
         int penuh = 22;
         
         System.out.println("Isi Gelas Sekarang: "+isiGelas+" ml");
-        System.out.println("Isi Gelas Ketika Penuh: "+penuh+" ml");
+        System.out.println("Isi Ketika Penuh: "+penuh+" ml");
         
-        while(isiGelas != penuh){
+        do {
             isiGelas++;
             System.out.println("Sedang mengisi gelas....");
-            System.out.println("Isi gelas sekarang: "+isiGelas+" ml");
-        }
-        
-        System.out.println("Akhirnya! Isi gelas penuh hehe.. yaitu: "+isiGelas+" ml");
-    }
-    
+            System.out.println("Isi Gelas Sekarang: "+isiGelas+" ml");
+        } while(isiGelas != penuh);
+        System.out.println("Yeay!! Akhirnya gelas sudah penuh: "+isiGelas+" ml");
+    }        
 }
